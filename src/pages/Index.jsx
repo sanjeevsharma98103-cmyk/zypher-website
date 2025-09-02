@@ -104,7 +104,7 @@ const PrevArrow = ({ onClick }) => (
                     className="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2"
                     href="#contact"
                   >
-                    Get a Free Quote
+                    Get a Free quotees
                   </a>
                 </div>
               </div>
