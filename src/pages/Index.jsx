@@ -89,7 +89,7 @@ const PrevArrow = ({ onClick }) => (
                 <h1 className="display-1 text-white mb-4">
                   We Build Modern Websites & Brands
                 </h1>
-                <h6 className="mb-5 fs-5 text-white">
+                <h6 className="mb-5 fs-5 text-white text-capitalize">
                   Full-stack web development, e-commerce, logo & branding, and SEO that
                   helps your business grow faster.
                 </h6>
