@@ -104,7 +104,7 @@ const PrevArrow = ({ onClick }) => (
                     className="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2"
                     href="#contact"
                   >
-                    Get a Free quotees
+                    Get a Free Quote
                   </a>
                 </div>
               </div>
@@ -295,6 +295,18 @@ const PrevArrow = ({ onClick }) => (
         </div>
       </div>
   {/* About End */}
+
+
+{/* discount banner start  */}
+<div className='container-fluid discountbg py-5'>
+
+<h1>
+ LIMITED OFFER !
+</h1>
+  <h5>Static Website for your business in just $99</h5>
+</div>
+
+
   {/* Service Start */}
 <div id="services" className="container-fluid service py-5">
         <div className="container py-5">
@@ -821,6 +833,32 @@ const PrevArrow = ({ onClick }) => (
     className="btn btn-primary btn-lg-square rounded-circle back-to-top">
     <i className="fa fa-arrow-up" />
   </a>
+
+   {/* Modal  */}
+
+   {/* <div class="container py-5">
+  <h2>Bootstrap 5 Modal Auto Refresh Example</h2>
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+    Open Modal
+  </button>
+</div> */}
+{/* <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myModalLabel">Hello Codezypher 👋</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This modal will trigger a page refresh when you close it.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> */}
 
     </div>
     

@@ -41,7 +41,26 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+        <!-- ✅ Modal Markup -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="myModalLabel">Welcome to Codezypher 👋</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           <img
+                  src="img/discountmodal.png"
+                  className="img-fluid w-100"
+                  alt="Codezypher - web development & branding"
+                  loading="lazy"
+                />
+        </div>
       
+      </div>
+    </div>
+  </div>
 
         
         <!-- JavaScript Libraries -->
@@ -57,5 +76,23 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+        <!-- Bootstrap Bundle (with Popper) -->
+
+<script>
+  // Refresh page when modal closes
+  $('#myModal').on('hidden.bs.modal', function () {
+    location.reload();
+  });
+</script>
+<script>
+  $(function () {
+    // Auto-show on every load/refresh
+    new bootstrap.Modal(document.getElementById('myModal')).show();
+
+    // Make sure no one is reloading on close anywhere else
+    $('#myModal').off('hidden.bs.modal');
+  });
+</script>
   </body>
 </html>
